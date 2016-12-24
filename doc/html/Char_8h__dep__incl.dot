@@ -1,0 +1,21 @@
+digraph "src/components/Char.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node29 [label="src/components/Char.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="src/components/Char.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Char_8cpp.html"];
+  Node29 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="src/components/String.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$String_8h.html"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="src/components/String.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$String_8cpp.html"];
+  Node31 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="src/components.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$components_8h.html"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="src/parts/Bearings.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Bearings_8cpp.html"];
+  Node33 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="src/parts/Nuts.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Nuts_8cpp.html"];
+  Node33 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="src/parts/StepperMotors.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$StepperMotors_8cpp.html"];
+  Node29 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

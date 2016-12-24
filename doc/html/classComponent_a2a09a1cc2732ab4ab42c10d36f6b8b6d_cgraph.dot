@@ -1,0 +1,20 @@
+digraph "Component::color"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node84 [label="Component::color",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node84 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="ColorDecorator::create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classColorDecorator.html#a74543bab1e3775280099b43d9d124c6a",tooltip="Default factory method. "];
+  Node85 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="ObjectDecorator::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectDecorator.html#a50d55a263f5ef6b1b847d59d42456be0",tooltip="Generate SCAD output for this object. "];
+  Node86 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="SharedPtr::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSharedPtr.html#a49ccede7111c7d25c1b1752b8ede30f5",tooltip="Gets the pointer hold. "];
+  Node86 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="AbstractObject::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAbstractObject.html#a6a649119224b5b664e68b324106f8a1b",tooltip="Generate SCAD output for this object. "];
+  Node85 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="ObjectDecorator::printAst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectDecorator.html#a5f5a5584f87beb6f8e7c88c941a1a464",tooltip="Generate AST output for this object. "];
+  Node89 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="AbstractObject::printAst",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAbstractObject.html#afe4637952e9d1dd3af11d29010beaa9d",tooltip="Generate AST output for this object. "];
+}

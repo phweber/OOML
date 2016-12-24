@@ -1,0 +1,47 @@
+digraph "src/core/Math.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="src/core/Math.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/components/Cylindrical\lSection.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$CylindricalSection_8h.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/components/Cylindrical\lSection.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$CylindricalSection_8cpp.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/components/RegularPiramid.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RegularPiramid_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/components/RegularPiramid.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RegularPiramid_8cpp.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/components.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$components_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/parts/Bearings.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Bearings_8cpp.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/parts/Nuts.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Nuts_8cpp.html"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/parts/StepperMotors.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$StepperMotors_8cpp.html"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/components/RegularPrism.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RegularPrism_8h.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/components/RegularPrism.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RegularPrism_8cpp.html"];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/core/RotMatrix.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RotMatrix_8cpp.html"];
+  Node2 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/core/TransformMatrix.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$TransformMatrix_8cpp.html"];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/core.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$core_8h.html"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="src/parts/Bearings.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Bearings_8h.html"];
+  Node16 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="src/parts.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$parts_8h.html"];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="src/parts/Nuts.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Nuts_8h.html"];
+  Node18 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="src/parts/StepperMotors.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$StepperMotors_8h.html"];
+  Node19 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

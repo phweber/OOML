@@ -1,0 +1,22 @@
+digraph "AbstractObject::hasLinks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node363 [label="AbstractObject::hasLinks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node363 -> Node364 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node364 [label="CompositeObject::getLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompositeObject.html#aa56a6b6d6ffa3724babd32187c879618"];
+  Node364 -> Node365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node365 [label="Union::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnion.html#a631b7822063fbc0f15c650d8e35d10bc",tooltip="Adds an object to the composite. "];
+  Node363 -> Node366 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node366 [label="CompositeObject::getLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompositeObject.html#abd931a335d723d345e80098d191c7de8"];
+  Node366 -> Node365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node363 -> Node367 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node367 [label="TransformDecorator\l::getLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTransformDecorator.html#a61d1782d4ae0d6437a3c055f18c4bb6b"];
+  Node363 -> Node368 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node368 [label="TransformDecorator\l::getLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTransformDecorator.html#a140256af9a84ec46efb8ea12cb28fedc"];
+  Node363 -> Node369 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node369 [label="Union::getLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnion.html#a95669f4e5f4277b6dd55b3a616a832b5"];
+  Node363 -> Node370 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node370 [label="Union::getLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnion.html#aaa3c89753def42b32fc54202a6835f61"];
+}

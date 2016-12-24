@@ -1,0 +1,13 @@
+digraph "RotationalMatrix::operator*"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="RotationalMatrix::operator*",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="RotationalMatrix::Rotational\lMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRotationalMatrix.html#a85eb4651cd6364478fb2a69d7b2ee47a",tooltip="Default constructor. "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Matrix::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix.html#abbc94145cba8869539b95fddccf61dba"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Matrix::set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix.html#a820d3e49ffea766faf310729803e1df1"];
+}

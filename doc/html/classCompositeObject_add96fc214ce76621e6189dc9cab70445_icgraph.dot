@@ -1,0 +1,23 @@
+digraph "CompositeObject::genScad"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="CompositeObject::genScad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Difference::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDifference.html#aedda11d0e6e72eec3dbfe4688e45b842",tooltip="Generate SCAD output for this object. "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Difference::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDifference.html#ab5e1e90dd67de2a94b591f95efcf0a54",tooltip="Adds an object to the composite. "];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Hull::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHull.html#ac268ad074dee1414e60a7cbf6d68102f",tooltip="Generate SCAD output for this object. "];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Hull::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHull.html#ae2853233497b387ad310497803c8f438",tooltip="Adds an object to the composite. "];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Intersection::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIntersection.html#ad9d3d29cd1dd2cbf83da3acf2c2a70c2",tooltip="Generate SCAD output for this object. "];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Intersection::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIntersection.html#a2a75f71e6cd804a724607c2548e56083",tooltip="Adds an object to the composite. "];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Union::genScad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnion.html#a1c66746209f4a071a8e31fa0d0e32830",tooltip="Generate SCAD output for this object. "];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Union::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUnion.html#a631b7822063fbc0f15c650d8e35d10bc",tooltip="Adds an object to the composite. "];
+}

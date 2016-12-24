@@ -1,0 +1,17 @@
+digraph "Polygon::getPoints"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="Polygon::getPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="PolygonalPiramid::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPolygonalPiramid.html#a9ddd875f2b4d9a878c96cccef7d590b4",tooltip="Build the piece. "];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="PolygonalPrism::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPolygonalPrism.html#a3915dd262cd305a5212b01dcb6494d04",tooltip="Build the piece. "];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="Polygon\< Point3D \>\l::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPolygon.html#aa2323b72c3a17188d27b5434c3e0b3d3",tooltip="Default assignment operator. "];
+  Node22 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="Polygon2D::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPolygon2D.html#aed8348946cbde228c9320404d9d0fef5",tooltip="Adds a point with insertor syntax. "];
+  Node22 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="Polyhedron::operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPolyhedron.html#a5b0aca00bf1c19f45f19d76aef4c9d66",tooltip="Adds a point with insertor syntax. "];
+}

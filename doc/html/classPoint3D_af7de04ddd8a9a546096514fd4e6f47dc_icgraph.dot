@@ -1,0 +1,13 @@
+digraph "Point3D::getY"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="Point3D::getY",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="Point3D::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPoint3D.html#ac02451ffdced80e5a841fb7834eb576a"];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="Point3D::operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPoint3D.html#ad6507187da4b116bfe5886bd8a85acbd",tooltip="Default plus operator. "];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="Point3D::operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPoint3D.html#ab057857ebd2f2057e605ea3db4d02a45",tooltip="Default minus operator. "];
+}

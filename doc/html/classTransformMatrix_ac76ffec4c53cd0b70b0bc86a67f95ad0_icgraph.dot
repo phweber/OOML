@@ -1,0 +1,44 @@
+digraph "TransformMatrix::rotateY"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node371 [label="TransformMatrix::rotateY",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node371 -> Node372 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node372 [label="TransformMatrix::rotateEulerZYZ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTransformMatrix.html#a6ca67ecc63c5f6fd26cca1d0df2033eb",tooltip="Applies an Euler rotation around the initial fixed z, y&#39;, z&#39;&#39; Applies three rotations around z..."];
+  Node372 -> Node373 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node373 [label="Component::rotateEulerZYZ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a495eab23b140a50437e90f84500803eb",tooltip="Rotate the component with Euler Angles ZY&#39;Z&#39;&#39;. "];
+  Node372 -> Node374 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node374 [label="Component::rotatedEulerZYZCopy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a1ad2043bd3b91ad39cf671b6c7becfa5",tooltip="Rotate a copy of the component with Euler Angles ZX&#39;Z&#39;&#39;. "];
+  Node372 -> Node375 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node375 [label="RefSys::rotateEulerZYZ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRefSys.html#a8546580f91dabc8f246aaa179577b327",tooltip="Rotates the reference system This methods rotates the reference system with the Euler ZYZ angles..."];
+  Node371 -> Node376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node376 [label="TransformMatrix::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTransformMatrix.html#a20910983db5e4e0574879dd86b4f8a3e",tooltip="Applies a Roll-Pitch-Yaw rotation around the initial fixed x, y, z Applies three rotations around the..."];
+  Node376 -> Node377 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node377 [label="Component::rotatedCopy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#ad9de437a1628000f65fea65381e4c3d4",tooltip="Rotate the component. "];
+  Node377 -> Node378 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node378 [label="BatteryHolder::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classBatteryHolder.html#a31b5756aae7816ef88986302ec12303c",tooltip="Build the piece. "];
+  Node377 -> Node379 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node379 [label="SharpIRSensor::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSharpIRSensor.html#a9358ae89493f89e94ecf763fa4f2f542",tooltip="Build the piece. "];
+  Node376 -> Node380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node380 [label="Component::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a5d02f92e62bd7a142dcc9c0dae0c908d",tooltip="Rotate the component. "];
+  Node380 -> Node381 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node381 [label="RoundedCube::RoundedCube",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRoundedCube.html#ad0ba2fd7d94c9b93a559bb36ab5787bf",tooltip="Constructor. "];
+  Node380 -> Node382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node382 [label="Component::moveToLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a90358faa491581771a2677e8cdc00bfd",tooltip="Move To Link Function This method rotates and translates the component in order to place it at a link..."];
+  Node380 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node383 [label="Component::attach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a229e816c0585cc4452b0200e0e842d1c",tooltip="Attaches two components This method attaches attachment component to the componet, making the links fit together. "];
+  Node383 -> Node384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node384 [label="attach",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$globalfunctions_8h.html#a09e34955be2ae478ecf8ee52ce4cc741",tooltip="Attaches two components This method attaches attachment component to base componet, making the links fit together. "];
+  Node384 -> Node385 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node385 [label="Component::mirror",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html#a12fc1771122cebeb04603a1e9029fe19",tooltip="Mirror the component. "];
+  Node380 -> Node386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node386 [label="ArduinoUNO::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classArduinoUNO.html#a3f36db05b8094951b6a0372fae99e390",tooltip="Build the piece. "];
+  Node380 -> Node387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node387 [label="BallWheelHolder::build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classBallWheelHolder.html#a5fdc4b7a1f329bf9e136abb14ce79066",tooltip="Build the piece. "];
+  Node380 -> Node378 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node380 -> Node388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node388 [label="GenericServo::getCrown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGenericServo.html#a495d0b7ab36c079972c4702359c5ec76",tooltip="returns a component only with the crown "];
+  Node376 -> Node389 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node389 [label="RefSys::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRefSys.html#af6bf58cbf4ee5d308bd05ab976562c56",tooltip="Rotates the reference system This methods rotates the reference system The origin is kept unmoved..."];
+}
